@@ -1,0 +1,12 @@
+# MySQL properties
+properties.driver=com.mysql.cj.jdbc.Driver
+properties.url=jdbc:mysql://localhost:3306/pp_java
+properties.username=root
+properties.password=1111
+
+# Hibernate properties
+hibernate.show_sql=true
+hibernate.hbm2ddl.auto=create-drop
+hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
+
+properties.entity.package=web
